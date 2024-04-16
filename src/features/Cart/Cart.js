@@ -13,7 +13,6 @@ export function Cart() {
   const dispatch = useDispatch();
 
   const handleSelectChange = (e, id) => { // get ( quantity-value , id ) 
-    // console.log(e.target.value);
     dispatch(updateAsync({ id, change: { quantity: +e.target.value } }));
   }
 
