@@ -1,0 +1,25 @@
+.cart-item{
+    padding: 20px;
+}
+
+.p{
+    display: flex;
+    padding-left: 100px;
+}
+
+.description{
+    padding-left: 150px;
+}
+
+.quantity{
+    padding-top: 10px;
+}
+
+.close{
+    padding-left:50px;
+}
+
+button{
+    background-color: black;
+    color: white;
+}
